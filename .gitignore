@@ -1,2 +1,5 @@
+# Allow PBIP folders inside workingInFabric
+!workingInFabric/*.Report/
+!workingInFabric/*.SemanticModel/
 **/.pbi/localSettings.json
 **/.pbi/cache.abf
