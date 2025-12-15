@@ -1,7 +1,8 @@
-# --- Allow PBIP folders inside workingInFabric ---
-!workingInFabric/
-!workingInFabric/*.Report/
-!workingInFabric/*.SemanticModel/
+# --- Allow everything inside workingInFabric ---
+!workingInFabric/**
 !workingInFabric/**/
-**/.pbi/localSettings.json
-**/.pbi/cache.abf
+!workingInFabric/*/
+
+# --- (leave your other Power BI ignores below) ---
+*/.pbi/localSettings.json
+*/.pbi/cache.abf
